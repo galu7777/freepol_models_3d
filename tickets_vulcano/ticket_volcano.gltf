@@ -1,0 +1,209 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 79802,
+            "type": "VEC3",
+            "max": [
+                0.811336100101471,
+                0.45640093088150024,
+                0.01521982904523611
+            ],
+            "min": [
+                -0.7904966473579407,
+                -0.45766863226890564,
+                -0.015062009915709496
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 79802,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 79802,
+            "type": "VEC2",
+            "max": [
+                0.9063025116920471,
+                0.9568527936935425
+            ],
+            "min": [
+                0.09508806467056274,
+                0.045184314250946045
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 187005,
+            "type": "SCALAR",
+            "max": [
+                79801
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3301684,
+            "uri": "ticket_volcano_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 957624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 957624,
+            "byteLength": 957624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1915248,
+            "byteLength": 638416,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2553664,
+            "byteLength": 748020,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_1.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material.001",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.15000005066394806,
+                "roughnessFactor": 0.12272728234529495
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "alphaCutoff": 0.10000000149011612,
+            "alphaMode": "MASK"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "ticket_volcano",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Curve",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.009251228533685207,
+                0.478634774684906,
+                -0.00007885800732765347,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "Curve"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
